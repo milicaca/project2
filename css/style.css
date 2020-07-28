@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+
+
+.footer{
+    padding-top: 100px;
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       
+    
+}
+
+.container{
+
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 13px 13px rgba(60, 60, 80, 0.1) ;
+    margin: 50px auto;
+    
+}
+header{
+
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px 5px 0 0 ;
+    width: 100%;
+}
+
+header h1{
+    color: hsl(179, 62%, 43%);
+}
+header h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.subscribe {
+    background-color: hsla(179, 62%, 43%, 0.616);
+    width: 50%;
+    padding: 40px;
+    color: white;
+     
+}
+
+#access{
+
+    padding-bottom: 30px;
+}
+#price {
+
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+ #price small{
+     font-size: 20px;
+     color: rgba(255, 255, 255, 0.685);
+ }
+
+.subsrcibe p strong {
+    font-size: 28px;
+    padding-right: 15px;
+}
+
+.subscribe a{
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 6px 4px rgba(40, 40, 40, 0.1);
+    
+}
+.whyus {
+    background-color: rgba(42, 178, 175, 0.7);
+    width: 50%;
+    padding: 40px;
+    color: white;
+}
+
+.whyus p{
+
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.616);
+}
+
